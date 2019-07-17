@@ -1,0 +1,80 @@
+/* CSS files add styling rules to your content */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+#title {
+  font-size: 45px;
+  font-family: Jua, monospace;
+  margin-bottom: -15px;
+}
+
+#subtitle {
+  font-size: 25px;
+  font-family: Jua, monospace;
+}
+#img-div {
+  padding-bottom: 15px;
+  padding-top: 25px;
+  max-width: 700px;
+  margin: auto;
+  background-color: rgb(211, 211, 192);
+  border-radius: 5px;
+}
+
+#image {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+}
+
+@media (min-width: 900px) {
+  #image {
+    max-width: 700px;
+  }  
+}
+
+#img-caption {
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Jua, monospace;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#tribute-info {
+  margin-bottom: 50px;
+}
+
+.info {
+  font-family: monospace;
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  padding: 5px;
+}
+
+footer {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  background-color: rgb(211, 211, 192);
+  padding: 5px;
+  border-radius: 5px;
+}
